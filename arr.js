@@ -1,4 +1,4 @@
-var arr=[1,2,3,4];
+let arr=[1,2,3,4];
 console.log("Displaying array elements :",arr);
 
 // push
@@ -77,7 +77,7 @@ console.log(v);
 
 //Every
 console.log("Every: ");
-var num=[10,20,30]
+let num=[10,20,30]
 console.log(num.every(fn))
 function fn(a)
 {
@@ -140,12 +140,12 @@ console.log(result)
 
 //join
 console.log("join :")
-var abc=["a","b","c"]
+let abc=["a","b","c"]
 console.log(abc.join())
 
 //keys
 console.log("Keys :")
-var k=[1,5,7]
+let k=[1,5,7]
 keys=k.keys()
 let t=""
 for(let v of keys)
@@ -161,10 +161,11 @@ console.log(li.lastIndexOf("tim"))
 
 //map
 console.log("map :")
-var no=[5,10,15]
+let no=[5,10,15]
 console.log(no.map(fn1))
 function fn1(a)
 {
     return a*2;
 }
+
 
