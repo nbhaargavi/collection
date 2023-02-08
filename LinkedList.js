@@ -13,7 +13,7 @@ class LinkedList{
                     this.rootNode= new Node(value)
                     this.count++;
                 }else{
-                    var temp = this.rootNode;
+                    let temp = this.rootNode;
                     while(temp.nextNode != null){
                         temp = temp.nextNode;
                     }
@@ -21,13 +21,13 @@ class LinkedList{
                 }
             }
             addElem(index, value){
-                var newNode = new Node(value);
+                let newNode = new Node(value);
                 if(index === 0){
                     newNode.nextNode = this.rootNode;
                     this.rootNode = newNode;
                 }else{
-                    var current = this.rootNode;
-                    var currentIndex = 0;
+                    let current = this.rootNode;
+                    let currentIndex = 0;
                     while(currentIndex < index-1){
                         current = current.nextNode;
                         currentIndex++;
@@ -59,7 +59,7 @@ class LinkedList{
        
             printElements()
         {
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(temp == null){
                 console.log("Is empty!")
             }else{
@@ -70,7 +70,7 @@ class LinkedList{
         }
     }  
 }
-var list = new LinkedList()
+let list = new LinkedList()
 list.addElement(1);
 list.addElement(2);
 list.addElement(3);
