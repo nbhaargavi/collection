@@ -41,8 +41,8 @@ console.log(l);
 
 //constructor
 console.log("constructor:");
-let c1=l1.contructor;
-console.log(c1);
+let o1=l1.contructor;
+console.log(o1);
 
 //sort
 console.log("sorting");
