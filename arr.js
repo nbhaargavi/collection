@@ -23,15 +23,15 @@ console.log(c1);
 
 //shift
 console.log("Shifting :");
-let c1=["a","b","c","d","e"];
-a=c1.shift();
-console.log(c1);
+let c2=["a","b","c","d","e"];
+a=c2.shift();
+console.log(c2);
 
 //unshift
-let c1=["a","b","c","d","e"];
+let c3=["a","b","c","d","e"];
 console.log("Unshifting:");
-b=c1.unshift(0);
-console.log(c1);
+b=c3.unshift(0);
+console.log(c3);
 
 //length
 let l1=[11,22,33,44,55,66];
@@ -65,14 +65,14 @@ console.log(e);
 
 //ToString
 console.log("To string :");
-let r1=[1,2,3,4,5]
-st=r1.toString();
+let r2=[1,2,3,4,5]
+st=r2.toString();
 console.log(st);
 
 //ValueOf
 console.log("value of :");
-let r1=[1,2,3,4,5]
-v=r1.valueOf();
+let r3=[1,2,3,4,5]
+v=r3.valueOf();
 console.log(v);
 
 //Every
@@ -118,8 +118,8 @@ function myFun(value, index, arr9) {
 
 //Array.from()
 console.log("Array From :")
-const a1 = Array.from("str")
-console.log(a1)
+const f1 = Array.from("str")
+console.log(f1)
 
 //includes()
 console.log("Includes :")
