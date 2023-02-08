@@ -11,9 +11,9 @@ console.log("elements after pop :",arr);
 
 //splice
 console.log("splice:");
-let c1=["a","b","c","d","e"];
-s=c1.splice(2,3);
-console.log(c1);
+let i1=["a","b","c","d","e"];
+s=i1.splice(2,3);
+console.log(i1);
 
 //slice
 console.log("slice:");
