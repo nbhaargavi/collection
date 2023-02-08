@@ -33,11 +33,11 @@ class Stack{
               }         
 print()
 {
-    let temp=this.rootNode;
-    while(temp!=null)
+   
+    while(this.rootNode!=null)
     {
-        console.log(temp.value);
-        temp=temp.nextNode;
+        console.log(this.rootNode.value);
+        this.rootNode=this.rootNode.nextNode;
     }
 }
 }
