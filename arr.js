@@ -47,9 +47,7 @@ console.log(c1);
 //sort
 console.log("sorting");
 let so=["bhaargavi","aashi","abi","priya"];
-c=so.sort((a,b) => {
-    return (a-b);
-})
+c=so.sort();
 console.log(so);
 
 //copywithin
