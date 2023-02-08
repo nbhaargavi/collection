@@ -26,7 +26,7 @@ class Stack{
                 while(temp.nextNode!=null)
                 {
                     previousNode=temp;
-                    temp=temp=temp.nextNode;
+                    temp=temp.nextNode;
                 }
                 previousNode.nextNode=null;
                 this.count--;
