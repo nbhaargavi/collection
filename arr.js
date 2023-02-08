@@ -88,8 +88,8 @@ let fil=arr.fill("90")
 console.log(fil);
 //find
 console.log("Find :");
-console.log(arr.find(fn))
-function fn(a)
+console.log(arr.find(f))
+function f(a)
 {
     return a%10==0;
 }
@@ -143,7 +143,7 @@ console.log(abc.join())
 //keys
 console.log("Keys :")
 let k=[1,5,7]
-keys=k.keys()
+let keys=k.keys()
 let t=""
 for(let v of keys)
 {
