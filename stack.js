@@ -13,7 +13,7 @@ class Stack{
                     this.rootNode= new Node(value)
                     this.count++;
                 }else{
-                    var temp = this.rootNode;
+                    let temp = this.rootNode;
                     while(temp.nextNode != null){
                         temp = temp.nextNode;
                     }
@@ -33,7 +33,7 @@ class Stack{
               }         
 print()
 {
-    var temp=this.rootNode;
+    let temp=this.rootNode;
     while(temp!=null)
     {
         console.log(temp.value);
