@@ -13,7 +13,7 @@ class Queue{
                     this.rootNode= new Node(value)
                     this.count++;
                 }else{
-                    var temp = this.rootNode;
+                    let temp = this.rootNode;
                     while(temp.nextNode != null){
                         temp = temp.nextNode;
                     }
@@ -25,7 +25,7 @@ class Queue{
                   console.log("Queue is empty")
                   return null;
                 }else{
-                  var value = this.rootNode.data;
+                  let value = this.rootNode.data;
                   this.rootNode = this.rootNode.nextNode;
                   this.count--;
                   return value;
@@ -33,7 +33,7 @@ class Queue{
               }
               
             printElements(){
-                var temp = this.rootNode;
+                let temp = this.rootNode;
                 if(temp == null){
                     console.log("Is empty!")
                 }else{
@@ -44,7 +44,7 @@ class Queue{
             }
             }
     }
-    var list = new Queue()
+    let list = new Queue()
     list.enqueue(1);
     list.enqueue(2);
     list.enqueue(3);
