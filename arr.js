@@ -11,30 +11,30 @@ console.log("elements after pop :",arr);
 
 //splice
 console.log("splice:");
-c1=["a","b","c","d","e"];
+let c1=["a","b","c","d","e"];
 s=c1.splice(2,3);
 console.log(c1);
 
 //slice
 console.log("slice:");
-c1=["a","b","c","d","e"];
+let c1=["a","b","c","d","e"];
 s1=c1.slice(1,4);
 console.log(c1);
 
 //shift
 console.log("Shifting :");
-c1=["a","b","c","d","e"];
+let c1=["a","b","c","d","e"];
 a=c1.shift();
 console.log(c1);
 
 //unshift
-c1=["a","b","c","d","e"];
+let c1=["a","b","c","d","e"];
 console.log("Unshifting:");
 b=c1.unshift(0);
 console.log(c1);
 
 //length
-l1=[11,22,33,44,55,66];
+let l1=[11,22,33,44,55,66];
 console.log("length:");
 let l=l1.length;
 console.log(l);
@@ -46,32 +46,32 @@ console.log(c1);
 
 //sort
 console.log("sorting");
-so=["bhaargavi","aashi","abi","priya"];
+let so=["bhaargavi","aashi","abi","priya"];
 c=so.sort((a,b) => {
     return (a-b);
 })
 console.log(so);
 
 //copywithin
-arr1=[1,2,3,4,5]
+let arr1=[1,2,3,4,5]
 w=arr1.copyWithin(2,0);
 console.log("Copywithin : ",w);
 
 //entries
-r1=[1,2,3,4,5]
+let r1=[1,2,3,4,5]
 console.log("entries :");
 e=r1.entries();
 console.log(e);
 
 //ToString
 console.log("To string :");
-r1=[1,2,3,4,5]
+let r1=[1,2,3,4,5]
 st=r1.toString();
 console.log(st);
 
 //ValueOf
 console.log("value of :");
-r1=[1,2,3,4,5]
+let r1=[1,2,3,4,5]
 v=r1.valueOf();
 console.log(v);
 
@@ -123,12 +123,12 @@ console.log(a1)
 
 //includes()
 console.log("Includes :")
-ay = ["selena","zayn","tim","harry","selena"];
+let ay = ["selena","zayn","tim","harry","selena"];
 console.log(ay.includes("tim",2))
 
 //index()
 console.log("Index :")
-ar= ["selena","zayn","tim","harry","selena"];
+let ar= ["selena","zayn","tim","harry","selena"];
 let index = ar.indexOf("selena",3)
 console.log(index)
 
