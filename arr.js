@@ -12,25 +12,25 @@ console.log("elements after pop :",arr);
 //splice
 console.log("splice:");
 let i1=["a","b","c","d","e"];
-s=i1.splice(2,3);
+let s=i1.splice(2,3);
 console.log(i1);
 
 //slice
 console.log("slice:");
 let c1=["a","b","c","d","e"];
-s1=c1.slice(1,4);
+let s1=c1.slice(1,4);
 console.log(c1);
 
 //shift
 console.log("Shifting :");
 let c2=["a","b","c","d","e"];
-a=c2.shift();
+let a=c2.shift();
 console.log(c2);
 
 //unshift
 let c3=["a","b","c","d","e"];
 console.log("Unshifting:");
-b=c3.unshift(0);
+let b=c3.unshift(0);
 console.log(c3);
 
 //length
@@ -41,36 +41,36 @@ console.log(l);
 
 //constructor
 console.log("constructor:");
-c1=l1.contructor;
+let c1=l1.contructor;
 console.log(c1);
 
 //sort
 console.log("sorting");
 let so=["bhaargavi","aashi","abi","priya"];
-c=so.sort();
+let c=so.sort();
 console.log(so);
 
 //copywithin
 let arr1=[1,2,3,4,5]
-w=arr1.copyWithin(2,0);
+let w=arr1.copyWithin(2,0);
 console.log("Copywithin : ",w);
 
 //entries
 let r1=[1,2,3,4,5]
 console.log("entries :");
-e=r1.entries();
+let e=r1.entries();
 console.log(e);
 
 //ToString
 console.log("To string :");
 let r2=[1,2,3,4,5]
-st=r2.toString();
+let st=r2.toString();
 console.log(st);
 
 //ValueOf
 console.log("value of :");
 let r3=[1,2,3,4,5]
-v=r3.valueOf();
+let v=r3.valueOf();
 console.log(v);
 
 //Every
@@ -84,9 +84,8 @@ function fn(a)
 
 //fill
 console.log("Fill :");
-fil=arr.fill("90")
+let fil=arr.fill("90")
 console.log(fil);
-
 //find
 console.log("Find :");
 console.log(arr.find(fn))
